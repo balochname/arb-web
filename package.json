@@ -13,8 +13,8 @@
     "prefix:css": "postcss --use autoprefixer -b 'last 10 versions' css/style.css -o css/style.css",
     "compress:css": "node-sass css/style.css css/style.css --output-style compressed",
     "build": "npm-run-all prefix:css compress:css",
-    "start": "node index.js",
-    "heroku-postbuild": "ng build --prod"
+    "start": "node index.js"
+    
   },
   "author": "",
   "license": "GPL-3.0",
